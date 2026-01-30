@@ -459,3 +459,31 @@ footer p {
 html, body{
   overflow-x: hidden;
 }
+/* ===== Mobile Projects Hard Fix ===== */
+@media (max-width: 600px){
+  .projects-grid{
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+
+  .project-card{
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .project-card-content{
+    padding: 14px !important;
+  }
+
+  .project-buttons{
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+
+  .project-buttons .btn{
+    width: 100% !important;
+  }
+}
